@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_rolagem1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/layout_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Feijoada"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/espacamento1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/feijoada"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/espacamento2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ingredientes:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Meio quilo de feijão-preto; 2 xícaras (chá) de carne-seca salgada; 2 xícaras (chá) de lombo de porco salgado; 2 xícaras (chá) de costeleta de porco salgada; 2 xícaras (chá) de linguiça calabresa; Suco de 2 laranjas; 1 xícara (chá) de toucinho; 2 cebolas picadas; 2 dentes de alho amassados;"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/espacamento3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Modo de preparo:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Numa panela de pressão, adicione o feijão preto Kicaldo lavado e o lombo defumado, acrescente água e feche para pegar pressão. Após ouvir o apito da panela, espere 5 minutos e retire a pressão. Transfira o conteúdo da panela de pressão para uma panela grande. Acrescente água quente (três dedos acima do feijão) e junte as linguiças já picadas, as costelinhas e a carne seca. Deixe ferver, acrescentando água sempre que necessário, até que os feijões estejam macios e ainda firmes. Em uma frigideira à parte, coloque o óleo, acrescente a cebola picada e deixe que ela fique transparente. Junte o alho picado, refogue bem, adicione uma concha do feijão e misture. Coloque esta mistura na panela do feijão e deixe apurar até o caldo engrossar"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</ScrollView>
